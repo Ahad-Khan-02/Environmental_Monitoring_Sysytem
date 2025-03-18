@@ -6,7 +6,7 @@
 
 int main() {
     char city[]="Karachi";   
-    const char *apiKey = "ac2bc8a89a7d3bc1045742a7d7969fe5";
+    const char *apiKey = "";
 
     char *response = fetch_weather_data(city, apiKey);
     if (response == NULL) {
